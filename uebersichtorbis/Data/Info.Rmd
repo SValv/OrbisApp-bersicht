@@ -1,0 +1,24 @@
+---
+title: "ToDoOrbis"
+output: html_document
+---
+
+# Orbis Astea To-Do
+
+Die Orbis-Astea To-Do App zeigt euch immer euren Stand und eure Aufgaben im Projekt, solltet ihr Aufgaben hinzufügen wollen, könnt ihr einfach [diesem Link](https://docs.google.com/spreadsheets/d/1pxBP-J_CUCamMeEdShhxomC7PJO_IjyzICGJfhUO-1Y/edit#gid=0) folgen.
+
+## Offene Aufgaben
+
+Hier sind alle Aufgaben vertreten, die in Orbis Astea anfallen und noch nicht erledigt wurden.
+
+## Alle Aufgaben
+
+Hier sind alle Aufgaben vertreten, die in Orbis Astea anfallen auch jene, die bereits erledigt wurden.
+
+## Gesamtanalytics
+
+Eine Uebersicht darueber, wer im allgemeinen welche Jobs erledigt hat oder am daran arbeiten ist.
+
+## Running Analytics
+
+Eine Uebersicht wie die Gesamt-Analytics, nur ohne bereits erledigte Aufgaben. Die Idee ist, dass man damit abschaetzen kann, wer wie ausgelastet ist.

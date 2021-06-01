@@ -1,0 +1,12 @@
+name: OrbisToDo
+title: OrbisToDo
+username:
+account: svalv
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4210936
+bundleId: 4662478
+url: https://svalv.shinyapps.io/OrbisToDo/
+when: 1622504665.7812
+asMultiple: FALSE
+asStatic: FALSE
