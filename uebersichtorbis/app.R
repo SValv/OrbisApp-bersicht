@@ -199,8 +199,9 @@ body <- dashboardBody(
       fluidPage(
         h2("Done Analysen"),
         column(width=7,plotlyOutput("barplodPrioDN")),
-        column(width=3, DTOutput("tableBarplotPrioDN"))
-
+        column(width=3, DTOutput("tableBarplotPrioDN")),
+        column(width=7,plotlyOutput("barplodPrioAutorenDN")),
+        column(width=3, DTOutput("tableBarplotAutorenDN"))
       )),
     tabItem(tabName = "Zusatz",
             fluidRow(
@@ -252,7 +253,8 @@ server <- function(input, output, session) {
   #Done Analytics
   output$barplodPrioDN=renderPlotly(getBarplotPrio(DFDO()))
   output$tableBarplotPrioDN=renderDT(makeTableBesidesPrio(DFDO()),width = "100%")  
-  
+  output$barplodPrioAutorenDN=renderPlotly(getBarplotAutors(DFDO()))
+  output$tableBarplotAutorenDN=renderDT(makeTableAutors(DFDO()),width = "100%")
 }
 
 
